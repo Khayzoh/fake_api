@@ -1,0 +1,355 @@
+[
+  {
+    "id": 42499,
+    "name": "MC321-1_001",
+    "status": "finalized",
+    "value": "10.000",
+    "locations": [
+      {
+        "id": 664,
+        "sort": 2,
+        "address_summary": "AV UM, SN",
+        "quarter": "ARVOREDO",
+        "city": "CONTAGEM",
+        "state": "MG",
+        "zip_code": "32113500",
+        "status": "pending",
+        "latitude": "-19.933380",
+        "longitude": "-44.025290",
+        "arrived_at_location_required": true,
+        "orders": [
+          {
+            "id": 477,
+            "idtype": 1,
+            "type": "Coleta",
+            "address": "AV UM, SN - ",
+            "person_name": "CONTAGEM",
+            "status": "pending",
+            "latitude": "-19.933380",
+            "longitude": "-44.025290",
+            "person_document": "10520136000186",
+            "total_value": "120.35",
+            "available_actions": [
+              {
+                "title": "Sucesso",
+                "type": "success",
+                "actions_before_submit": [
+                  {
+                    "type": "collect_scan_codes",
+                    "title": "Escaneie os objetos a receber",
+                    "code_validation_rules": {
+                      "data": {
+                        "accepted_prefixes": [
+                          "35"
+                        ],
+                        "accepted_sufixes": [],
+                        "accepted_number_of_characters": [
+                          44
+                        ]
+                      }
+                    }
+                  },
+                  {
+                    "type": "register_receiver",
+                    "title": "Quem está entregando?",
+                    "data": {
+                      "available_options": [
+                        {
+                          "title": "Dono",
+                          "code": "101"
+                        },
+                        {
+                          "title": "Funcionário",
+                          "code": "102"
+                        },
+                        {
+                          "title": "Outro",
+                          "code": "103"
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "type": "signature",
+                    "title": "signature"
+                  }
+                ]
+              },
+              {
+                "title": "Insucesso",
+                "type": "failure",
+                "actions_before_submit": [
+                  {
+                    "type": "register_problem",
+                    "title": "Qual é o problema?",
+                    "data": {
+                      "available_options": [
+                        {
+                          "title": "Estabelecimento fechado",
+                          "code": "20"
+                        },
+                        {
+                          "title": "Atraso do motorista",
+                          "code": "24"
+                        },
+                        {
+                          "title": "Trânsito imprevisto",
+                          "code": "25"
+                        },
+                        {
+                          "title": "Acidente na pista",
+                          "code": "26"
+                        },
+                        {
+                          "title": "Problemas Físicos no Veículo",
+                          "code": "27"
+                        },
+                        {
+                          "title": "Atraso no Cliente Anterior",
+                          "code": "28"
+                        },
+                        {
+                          "title": "Problemas no Rastreador",
+                          "code": "29"
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "type": "take_photo",
+                    "title": "Tira uma foto da evidência"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": 665,
+        "sort": 3,
+        "address_summary": "AV UM, SN",
+        "quarter": "ARVOREDO",
+        "city": "CONTAGEM",
+        "state": "MG",
+        "zip_code": "32113500",
+        "status": "pending",
+        "latitude": "-19.933380",
+        "longitude": "-44.025290",
+        "arrived_at_location_required": true,
+        "orders": [
+          {
+            "id": 478,
+            "idtype": 1,
+            "type": "Coleta",
+            "address": "AV UM, SN - ",
+            "person_name": "CONTAGEM",
+            "status": "pending",
+            "latitude": "-19.933380",
+            "longitude": "-44.025290",
+            "person_document": "10520136000186",
+            "total_value": "120.35",
+            "available_actions": [
+              {
+                "title": "Sucesso",
+                "type": "success",
+                "actions_before_submit": [
+                  {
+                    "type": "collect_scan_codes",
+                    "title": "Escaneie os objetos a receber",
+                    "code_validation_rules": {
+                      "data": {
+                        "accepted_prefixes": [
+                          "35"
+                        ],
+                        "accepted_sufixes": [],
+                        "accepted_number_of_characters": [
+                          44
+                        ]
+                      }
+                    }
+                  },
+                  {
+                    "type": "register_receiver",
+                    "title": "Quem está entregando?",
+                    "data": {
+                      "available_options": [
+                        {
+                          "title": "Dono",
+                          "code": "101"
+                        },
+                        {
+                          "title": "Funcionário",
+                          "code": "102"
+                        },
+                        {
+                          "title": "Outro",
+                          "code": "103"
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "type": "signature",
+                    "title": "signature"
+                  }
+                ]
+              },
+              {
+                "title": "Insucesso",
+                "type": "failure",
+                "actions_before_submit": [
+                  {
+                    "type": "register_problem",
+                    "title": "Qual é o problema?",
+                    "data": {
+                      "available_options": [
+                        {
+                          "title": "Estabelecimento fechado",
+                          "code": "20"
+                        },
+                        {
+                          "title": "Atraso do motorista",
+                          "code": "24"
+                        },
+                        {
+                          "title": "Trânsito imprevisto",
+                          "code": "25"
+                        },
+                        {
+                          "title": "Acidente na pista",
+                          "code": "26"
+                        },
+                        {
+                          "title": "Problemas Físicos no Veículo",
+                          "code": "27"
+                        },
+                        {
+                          "title": "Atraso no Cliente Anterior",
+                          "code": "28"
+                        },
+                        {
+                          "title": "Problemas no Rastreador",
+                          "code": "29"
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "type": "take_photo",
+                    "title": "Tira uma foto da evidência"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": 663,
+        "sort": 4,
+        "address_summary": "AVENIDA TAMBORE, 301",
+        "quarter": "TAMBORE",
+        "city": "BARUERI",
+        "state": "SP",
+        "zip_code": "06460000",
+        "status": "pending",
+        "latitude": "-23.503970",
+        "longitude": "-46.844470",
+        "arrived_at_location_required": true,
+        "orders": [
+          {
+            "id": 476,
+            "idtype": 3,
+            "type": "Transferência",
+            "address": "AVENIDA TAMBORE, 301 - ",
+            "person_name": "SAO PAULO",
+            "status": "pending",
+            "latitude": "-23.503970",
+            "longitude": "-46.844470",
+            "person_document": "10520136000186",
+            "total_value": "120.35",
+            "available_actions": [
+              {
+                "title": "Sucesso",
+                "type": "success",
+                "actions_before_submit": [
+                  {
+                    "type": "register_receiver",
+                    "title": "Quem está recebendo?",
+                    "data": {
+                      "available_options": [
+                        {
+                          "title": "Dono",
+                          "code": "101"
+                        },
+                        {
+                          "title": "Funcionário",
+                          "code": "102"
+                        },
+                        {
+                          "title": "Outro",
+                          "code": "103"
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "type": "signature",
+                    "title": "Assinatura"
+                  }
+                ]
+              },
+              {
+                "title": "Insucesso",
+                "type": "failure",
+                "actions_before_submit": [
+                  {
+                    "type": "register_problem",
+                    "title": "Qual é o problema?",
+                    "data": {
+                      "available_options": [
+                        {
+                          "title": "Estabelecimento fechado",
+                          "code": "20"
+                        },
+                        {
+                          "title": "Atraso do motorista",
+                          "code": "24"
+                        },
+                        {
+                          "title": "Trânsito imprevisto",
+                          "code": "25"
+                        },
+                        {
+                          "title": "Acidente na pista",
+                          "code": "26"
+                        },
+                        {
+                          "title": "Problemas Físicos no Veículo",
+                          "code": "27"
+                        },
+                        {
+                          "title": "Atraso no Cliente Anterior",
+                          "code": "28"
+                        },
+                        {
+                          "title": "Problemas no Rastreador",
+                          "code": "29"
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "type": "take_photo",
+                    "title": "Tira uma foto da evidência"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]
